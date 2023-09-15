@@ -1,0 +1,96 @@
+body {
+    background-image: url(/home/steven/Desktop/Tareadeintroduccionahtmlycss/FondoPagina/Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilos para las secciones de atributos */
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+section p {
+    background-color: rgba(255, 255, 255, 0.10); /* Valor de transparencia 0.5 (50%) */
+    padding: 0px; /* Añade espacio alrededor del texto para que se vea mejor */
+    margin: 0;
+}
+
+h2 {
+    background-color: rgba(255, 255, 255, 0.10); /* Valor de transparencia 0.5 (50%) */
+    padding: 0px; /* Añade espacio alrededor del título para resaltar el efecto */
+    margin: 0;
+}
+
+h2 {
+    color: #b11212d2; /* Cambia al color que desees las letras*/
+}
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.10); /* Valor de transparencia 0.5 (50%) */
+    padding: 0px; /* Añade espacio alrededor del texto para que se vea mejor */
+    margin: 0;
+}
+
+.cuadritos {
+    border-collapse: collapse;
+    width: 100%;
+    color: #b11212d2;
+}
+
+.cuadritos td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    color: #b11212d2;
+
+}
+
+.cuadritos td a,
+.cuadritos td a:visited {
+    color: #b11212d2;
+    text-decoration: none; /* Elimina la subrayado predeterminado en los enlaces */
+}
+
+/*para el icon del texto */
+.icono-texto {
+    
+    align-items: center;
+}
+
+.icono-texto img {
+    margin-right: 10px; /* Agrega un margen derecho entre la imagen y el texto */
+}
+
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.10); /* Valor de transparencia 0.5 (50%) */
+    padding: 0px; /* Añade espacio alrededor del título para resaltar el efecto */
+    margin: 0;
+}
+
+/*la imagense acomoda automaticamente*/
+img { 
+    max-width: 100%;
+    height: auto; /* Mantiene la relación de aspecto original */
+}
